@@ -2,7 +2,7 @@ program: setup install lint test
 
 setup:
 	python3 -m venv ~/.MLOPS
-	source ~/.MLOPS/bin/activate
+	# source ~/.MLOPS/bin/activate
 
 install:
 	pip install --upgrade pip &&\
